@@ -13,6 +13,7 @@ const fetchChallenges = async () => {
       return response.data;
     } catch (error) {
       console.error('Error fetching challenges:', error);
+      return [];
     }
   };
 
